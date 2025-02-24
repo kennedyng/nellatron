@@ -4,12 +4,12 @@ import { Icon } from "@/components/ui/icon";
 import { Marquee } from "@devnomic/marquee";
 import "@devnomic/marquee/dist/index.css";
 import { icons } from "lucide-react";
-interface sponsorsProps {
+interface ClientsProps {
   icon: string;
   name: string;
 }
 
-const sponsors: sponsorsProps[] = [
+const clients: ClientsProps[] = [
   {
     icon: "Crown",
     name: "Acmebrand",
@@ -40,11 +40,11 @@ const sponsors: sponsorsProps[] = [
   },
 ];
 
-export const SponsorsSection = () => {
+export const ClientsSection = () => {
   return (
-    <section id="sponsors" className="max-w-[75%] mx-auto pb-24 sm:pb-32">
+    <section id="clients" className="max-w-[75%] mx-auto pb-24 sm:pb-32">
       <h2 className="text-lg md:text-2xl text-center mb-6 font-bold">
-        Our Platinum Sponsors
+        Our Clients
       </h2>
 
       <div className="mx-auto">
@@ -54,7 +54,7 @@ export const SponsorsSection = () => {
           innerClassName="gap-[3rem]"
           pauseOnHover
         >
-          {sponsors.map(({ icon, name }) => (
+          {clients.map(({ icon, name }) => (
             <div
               key={name}
               className="flex items-center text-xl md:text-2xl font-medium"

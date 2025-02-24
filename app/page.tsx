@@ -12,13 +12,14 @@ import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
 export const metadata = {
-  title: "Nellatron",
-  description: "Free Shadcn landing page for developers",
+  title: "Nellatron Software Company",
+  description: "Innovative software solutions for modern businesses",
   openGraph: {
     type: "website",
-    url: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
+    url: "https://nellatron.com", // Update this with your actual website URL
+    title: "Nellatron Software Company",
+    description:
+      "Building cutting-edge software solutions for businesses and developers.",
     images: [
       {
         url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
@@ -30,9 +31,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
+    site: "https://nellatron.com", // Update with your actual Twitter handle or website URL
+    title: "Nellatron Software Company",
+    description: "Innovative software solutions for modern businesses.",
     images: [
       "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
     ],

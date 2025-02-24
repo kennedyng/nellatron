@@ -1,7 +1,11 @@
 {
-  "name": "shadcn-landing-page",
+  "name": "nellatron",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "kennedy ngosa",
+    "email": "kennedyngosachanda@gmail.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
